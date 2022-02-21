@@ -1,0 +1,148 @@
+body {
+    font-family: arial;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 200px 1fr 200px;
+      grid-template-rows: auto 1fr auto;
+    }
+  }
+  
+  header {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #369;
+    color: white;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #f90;
+    padding: 20px;
+  }
+   
+  aside {
+    padding: 20px;
+    background-color: #936;
+  }
+  
+  footer {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #690;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  #foto_perfil {
+    text-align: center;
+}
+  #foto_perfil img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.bloco_informacao{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: auto;
+  align-items: center;
+}
+.material-icons.icone_branco{
+  color: white;
+}
+
+
+nav .descricao{
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+nav h3{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+#cabecalho {
+  margin-bottom: 20px;
+}
+
+#competencia, #experiencia, #formacao_academica  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#cabecalho h1{
+  text-transform: uppercase;
+  color: #355586;
+}
+#cabecalho h3{
+  color: gray;
+}
+
+main h4{
+  color: gray;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.nome_empresa{
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+.desc_empresa{
+  color: black;
+  margin: 0;
+
+}
+.exp_empresa{
+  margin-bottom: 10px;
+}
+
+aside h3{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+aside .descricao{
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
