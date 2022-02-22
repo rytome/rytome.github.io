@@ -82,6 +82,7 @@ nav .descricao{
   color: white;
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
+  margin-left: 5px;
  
 }
 
@@ -144,5 +145,6 @@ aside .descricao{
   color: white;
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
+  margin-left: 5px;
  
 }
